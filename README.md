@@ -7,7 +7,7 @@
 ## Структура проекта
 
 ```
-den-server/
+app/
 ├── controllers/
 │   └── echo.controller.js    # Контроллер для обработки echo-запросов
 ├── routes/

@@ -1,10 +1,10 @@
 {
   "name": "denserver",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
   },
   "keywords": [],
   "author": "Denis P",
