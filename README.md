@@ -2,6 +2,8 @@
 
 Веб-сервер на Express.js, который отображает данные полученные через GET или POST запросы в HTML формате.
 
+<img width="1023" alt="image" src="https://github.com/user-attachments/assets/fbb100f5-1c12-49a6-8dd7-51788436dc8b" />
+
 ## Структура проекта
 
 ```
