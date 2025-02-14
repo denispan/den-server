@@ -1,0 +1,13 @@
+.idea
+node_modules
+.env
+logs/
+uploads/*
+export/*
+docs/*
+photos/*
+tmp
+temp
+data
+yarn.lock
+package-lock.json
