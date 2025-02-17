@@ -26,14 +26,14 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/assets', express.static(path.join(__dirname, 'views/assets'), {
+app.use('/assets', express.static(path.join(__dirname, 'assets'), {
     setHeaders: (res, path) => {
         if (path.endsWith('.ico')) {
             res.set('Content-Type', 'image/x-icon');
         }
     }
 }));
-console.log('Assets directory:', path.join(__dirname, 'views/assets'));
+console.log('Assets directory:', path.join(__dirname, 'assets'));
 app.use(express.static('public'));
 app.use(cors(corsOptions));
 app.use(express.json());
