@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const echoRouter = require('./routes/echo.routes.js')
 
 const PORT = process.env.PORT || 8080;
@@ -19,10 +20,24 @@ const corsOptions = {
   maxAge: 86400
 };
 
+// Логирование всех запросов
+app.use((req, res, next) => {
+    console.log(`${new Date().toISOString()} ${req.method} ${req.url}`);
+    next();
+});
+
+app.use('/assets', express.static(path.join(__dirname, 'views/assets'), {
+    setHeaders: (res, path) => {
+        if (path.endsWith('.ico')) {
+            res.set('Content-Type', 'image/x-icon');
+        }
+    }
+}));
+console.log('Assets directory:', path.join(__dirname, 'views/assets'));
+app.use(express.static('public'));
 app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
 
 app.use('/api', echoRouter);
 
