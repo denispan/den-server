@@ -4,7 +4,8 @@
   "main": "app/index.js",
   "scripts": {
     "start": "node app/index.js",
-    "dev": "nodemon app/index.js"
+    "dev": "nodemon app/index.js",
+    "bump": "npm version patch -m \"Release v%s\" && git push && git push --tags"
   },
   "keywords": [],
   "author": "Denis P",
