@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const echoRouter = require('./routes/echo.routes.js')
+const router = require('./routes');
 
 const PORT = process.env.PORT || 8080;
 const app = express();
@@ -22,25 +22,25 @@ const corsOptions = {
 
 // Логирование всех запросов
 app.use((req, res, next) => {
-    console.log(`${new Date().toISOString()} ${req.method} ${req.url}`);
-    next();
+  console.log(`${new Date().toISOString()} ${req.method} ${req.url}`);
+  next();
 });
 
 app.use('/assets', express.static(path.join(__dirname, 'assets'), {
-    setHeaders: (res, path) => {
-        if (path.endsWith('.ico')) {
-            res.set('Content-Type', 'image/x-icon');
-        }
+  setHeaders: (res, path) => {
+    if (path.endsWith('.ico')) {
+      res.set('Content-Type', 'image/x-icon');
     }
+  }
 }));
 console.log('Assets directory:', path.join(__dirname, 'assets'));
 app.use(express.static('public'));
 app.use(cors(corsOptions));
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({extended: true}));
 
-app.use('/api', echoRouter);
+app.use('/api', router);
 
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
-})
+});
