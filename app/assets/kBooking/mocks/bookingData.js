@@ -13,7 +13,7 @@ const bookingData = [
       'checkin': '20:00',
       'checkout': '6:00',
       'photos': [
-        'https://denpan.ru/assets/kBooking/ashim-d-silva-zL_urJ_3bDM.jpg'
+        'https://denpan.ru/assets/kBooking/images/ashim-d-silva-zL_urJ_3bDM.jpg'
       ]
     },
     'location': {
@@ -42,7 +42,7 @@ const bookingData = [
       ],
       'description': 'Хейтеров просьба не беспокоить.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/scott-webb-1ddol8rgUH8.jpg'
+        'https://denpan.ru/assets/kBooking/images/scott-webb-1ddol8rgUH8.jpg'
       ]
     },
     'location': {
@@ -70,7 +70,7 @@ const bookingData = [
       ],
       'description': 'Комната в трёхкомнатной квартире, подойдёт молодым путешественникам.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/earvin-huang-a8danBUbgw0.jpg'
+        'https://denpan.ru/assets/kBooking/images/earvin-huang-a8danBUbgw0.jpg'
       ]
     },
     'location': {
@@ -96,9 +96,9 @@ const bookingData = [
       ],
       'description': 'Квартира на первом этаже. Соседи тихие. Для всех, кто терпеть не может шума и суеты.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/edvin-johansson-rlwE8f8anOc.jpg',
-        'https://denpan.ru/assets/kBooking/erik-mclean-1H_tipvmM60.jpg',
-        'https://denpan.ru/assets/kBooking/ducminh-nguyen-hG3H6N6VwCY.jpg'
+        'https://denpan.ru/assets/kBooking/images/edvin-johansson-rlwE8f8anOc.jpg',
+        'https://denpan.ru/assets/kBooking/images/erik-mclean-1H_tipvmM60.jpg',
+        'https://denpan.ru/assets/kBooking/images/ducminh-nguyen-hG3H6N6VwCY.jpg'
       ]
     },
     'location': {
@@ -127,7 +127,7 @@ const bookingData = [
       ],
       'description': 'Великолепная лавочка прямо в центре парка. Подходит для всех кто любит спать на свежем воздухе.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/scott-webb-1ddol8rgUH8.jpg'
+        'https://denpan.ru/assets/kBooking/images/scott-webb-1ddol8rgUH8.jpg'
       ]
     },
     'location': {
@@ -149,9 +149,9 @@ const bookingData = [
       'checkin': '15:00',
       'checkout': '15:00',
       'photos': [
-        'https://denpan.ru/assets/kBooking/andrea-davis-7Wg_9Dq17_U.jpg',
-        'https://denpan.ru/assets/kBooking/andrea-davis-8xT51zPdsjY.jpg',
-        'https://denpan.ru/assets/kBooking/andrea-davis-nbI8gqbBaHo.jpg'
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-7Wg_9Dq17_U.jpg',
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-8xT51zPdsjY.jpg',
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-nbI8gqbBaHo.jpg'
       ]
     },
     'location': {
@@ -174,7 +174,7 @@ const bookingData = [
       'checkout': '15:00',
       'description': 'Маленькая квартирка на чердаке. Для самых не требовательных.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/earvin-huang-a8danBUbgw0.jpg'
+        'https://denpan.ru/assets/kBooking/images/earvin-huang-a8danBUbgw0.jpg'
       ]
     },
     'location': {
@@ -197,7 +197,7 @@ const bookingData = [
       'checkout': '7:00',
       'description': 'Замечательный дворец в старинном центре города. Только для тех кто может себе позволить дворец. Лакеев и прочих жокеев просим не беспокоить.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/scott-webb-1ddol8rgUH8.jpg'
+        'https://denpan.ru/assets/kBooking/images/scott-webb-1ddol8rgUH8.jpg'
       ]
     },
     'location': {
@@ -223,7 +223,7 @@ const bookingData = [
       ],
       'description': 'Отель для ценителей истории. Почуствуй себя героем из прошлого.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/greg-rosenke-HHgnQFBVs6o.jpg'
+        'https://denpan.ru/assets/kBooking/images/greg-rosenke-HHgnQFBVs6o.jpg'
       ]
     },
     'location': {
@@ -249,7 +249,7 @@ const bookingData = [
       ],
       'description': 'Великолепная лавочка прямо в центре парка. Подходит для всех кто любит спать на свежем воздухе.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/scott-webb-1ddol8rgUH8.jpg'
+        'https://denpan.ru/assets/kBooking/images/scott-webb-1ddol8rgUH8.jpg'
       ]
     },
     'location': {
@@ -279,8 +279,8 @@ const bookingData = [
       ],
       'description': 'Отель для ценителей истории. Почуствуй себя героем из прошлого.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/anelale-najera-vdeZfLQ6Hts.jpg',
-        'https://denpan.ru/assets/kBooking/angela-bailey-8KzgXVPTZn0.jpg'
+        'https://denpan.ru/assets/kBooking/images/anelale-najera-vdeZfLQ6Hts.jpg',
+        'https://denpan.ru/assets/kBooking/images/angela-bailey-8KzgXVPTZn0.jpg'
       ]
     },
     'location': {
@@ -310,7 +310,7 @@ const bookingData = [
         'elevator'
       ],
       'photos': [
-        'https://denpan.ru/assets/kBooking/greg-rosenke-HHgnQFBVs6o.jpg'
+        'https://denpan.ru/assets/kBooking/images/greg-rosenke-HHgnQFBVs6o.jpg'
       ]
     },
     'location': {
@@ -340,9 +340,9 @@ const bookingData = [
       ],
       'description': 'Великолепная лавочка прямо в центре парка. Подходит для всех кто любит спать на свежем воздухе.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/edvin-johansson-rlwE8f8anOc.jpg',
-        'https://denpan.ru/assets/kBooking/erik-mclean-1H_tipvmM60.jpg',
-        'https://denpan.ru/assets/kBooking/ducminh-nguyen-hG3H6N6VwCY.jpg'
+        'https://denpan.ru/assets/kBooking/images/edvin-johansson-rlwE8f8anOc.jpg',
+        'https://denpan.ru/assets/kBooking/images/erik-mclean-1H_tipvmM60.jpg',
+        'https://denpan.ru/assets/kBooking/images/ducminh-nguyen-hG3H6N6VwCY.jpg'
       ]
     },
     'location': {
@@ -385,9 +385,9 @@ const bookingData = [
       'checkout': '22:00',
       'description': 'Комната в трёхкомнатной квартире, подойдёт молодым путешественникам.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/cameron-venti-R64qgQ6rr_o.jpg',
-        'https://denpan.ru/assets/kBooking/brandon-hoogenboom-SNxQGWxZQi0.jpg',
-        'https://denpan.ru/assets/kBooking/claire-rendall-b6kAwr1i0Iw.jpg'
+        'https://denpan.ru/assets/kBooking/images/cameron-venti-R64qgQ6rr_o.jpg',
+        'https://denpan.ru/assets/kBooking/images/brandon-hoogenboom-SNxQGWxZQi0.jpg',
+        'https://denpan.ru/assets/kBooking/images/claire-rendall-b6kAwr1i0Iw.jpg'
       ]
     },
     'location': {
@@ -410,7 +410,7 @@ const bookingData = [
       'checkout': '9:00',
       'description': 'У нас тут все ништяк. Ларек за углом. Шава 24 часа. Приезжайте! Интернетов нет!',
       'photos': [
-        'https://denpan.ru/assets/kBooking/greg-rosenke-HHgnQFBVs6o.jpg'
+        'https://denpan.ru/assets/kBooking/images/greg-rosenke-HHgnQFBVs6o.jpg'
       ]
     },
     'location': {
@@ -440,9 +440,9 @@ const bookingData = [
       ],
       'description': 'Великолепная квартира-студия в центре Токио. Подходит как туристам, там и бизнесменам. Квартира полностью укомплектована и имеет свежий ремонт.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/andrea-davis-7Wg_9Dq17_U.jpg',
-        'https://denpan.ru/assets/kBooking/andrea-davis-8xT51zPdsjY.jpg',
-        'https://denpan.ru/assets/kBooking/andrea-davis-nbI8gqbBaHo.jpg'
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-7Wg_9Dq17_U.jpg',
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-8xT51zPdsjY.jpg',
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-nbI8gqbBaHo.jpg'
       ]
     },
     'location': {
@@ -496,7 +496,7 @@ const bookingData = [
       ],
       'description': 'Замечательный дворец в старинном центре города. Только для тех кто может себе позволить дворец. Лакеев и прочих жокеев просим не беспокоить.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/scott-webb-1ddol8rgUH8.jpg'
+        'https://denpan.ru/assets/kBooking/images/scott-webb-1ddol8rgUH8.jpg'
       ]
     },
     'location': {
@@ -527,9 +527,9 @@ const bookingData = [
       ],
       'description': 'Хейтеров просьба не беспокоить.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/andrea-davis-7Wg_9Dq17_U.jpg',
-        'https://denpan.ru/assets/kBooking/andrea-davis-8xT51zPdsjY.jpg',
-        'https://denpan.ru/assets/kBooking/andrea-davis-nbI8gqbBaHo.jpg'
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-7Wg_9Dq17_U.jpg',
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-8xT51zPdsjY.jpg',
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-nbI8gqbBaHo.jpg'
       ]
     },
     'location': {
@@ -560,7 +560,7 @@ const bookingData = [
       ],
       'description': 'Квартира на первом этаже. Соседи тихие. Для всех, кто терпеть не может шума и суеты.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/greg-rosenke-HHgnQFBVs6o.jpg'
+        'https://denpan.ru/assets/kBooking/images/greg-rosenke-HHgnQFBVs6o.jpg'
       ]
     },
     'location': {
@@ -587,7 +587,7 @@ const bookingData = [
       ],
       'description': 'Один из лучших хостелов для душевного общения. Ужинаем вместе и играем в «Мафию» по вечерам, вкусно готовим. Ежедневная уборка, бесплатный Wi-Fi, чистое постельное белье.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/greg-rosenke-HHgnQFBVs6o.jpg'
+        'https://denpan.ru/assets/kBooking/images/greg-rosenke-HHgnQFBVs6o.jpg'
       ]
     },
     'location': {
@@ -610,9 +610,9 @@ const bookingData = [
       'checkout': '3:00',
       'description': 'Отель для ценителей истории. Почуствуй себя героем из прошлого.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/edvin-johansson-rlwE8f8anOc.jpg',
-        'https://denpan.ru/assets/kBooking/erik-mclean-1H_tipvmM60.jpg',
-        'https://denpan.ru/assets/kBooking/ducminh-nguyen-hG3H6N6VwCY.jpg'
+        'https://denpan.ru/assets/kBooking/images/edvin-johansson-rlwE8f8anOc.jpg',
+        'https://denpan.ru/assets/kBooking/images/erik-mclean-1H_tipvmM60.jpg',
+        'https://denpan.ru/assets/kBooking/images/ducminh-nguyen-hG3H6N6VwCY.jpg'
       ]
     },
     'location': {
@@ -669,9 +669,9 @@ const bookingData = [
       ],
       'description': 'Квартира на первом этаже. Соседи тихие. Для всех, кто терпеть не может шума и суеты.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/edvin-johansson-rlwE8f8anOc.jpg',
-        'https://denpan.ru/assets/kBooking/erik-mclean-1H_tipvmM60.jpg',
-        'https://denpan.ru/assets/kBooking/ducminh-nguyen-hG3H6N6VwCY.jpg'
+        'https://denpan.ru/assets/kBooking/images/edvin-johansson-rlwE8f8anOc.jpg',
+        'https://denpan.ru/assets/kBooking/images/erik-mclean-1H_tipvmM60.jpg',
+        'https://denpan.ru/assets/kBooking/images/ducminh-nguyen-hG3H6N6VwCY.jpg'
       ]
     },
     'location': {
@@ -722,7 +722,7 @@ const bookingData = [
       ],
       'description': 'Тут красиво, светло и уютно. Есть где разместиться компании из 5 человек. Кофе и печеньки бесплатно.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/greg-rosenke-HHgnQFBVs6o.jpg'
+        'https://denpan.ru/assets/kBooking/images/greg-rosenke-HHgnQFBVs6o.jpg'
       ]
     },
     'location': {
@@ -749,8 +749,8 @@ const bookingData = [
       ],
       'description': 'Квартира на первом этаже. Соседи тихие. Для всех, кто терпеть не может шума и суеты.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/felix-fuchs-PXAcac16eJQ.jpg',
-        'https://denpan.ru/assets/kBooking/duonguyen-8LrGtIxxa4w.jpg'
+        'https://denpan.ru/assets/kBooking/images/felix-fuchs-PXAcac16eJQ.jpg',
+        'https://denpan.ru/assets/kBooking/images/duonguyen-8LrGtIxxa4w.jpg'
       ]
     },
     'location': {
@@ -773,9 +773,9 @@ const bookingData = [
       'checkout': '5:00',
       'description': 'Маленькая квартирка на чердаке. Для самых не требовательных.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/cameron-venti-R64qgQ6rr_o.jpg',
-        'https://denpan.ru/assets/kBooking/brandon-hoogenboom-SNxQGWxZQi0.jpg',
-        'https://denpan.ru/assets/kBooking/claire-rendall-b6kAwr1i0Iw.jpg'
+        'https://denpan.ru/assets/kBooking/images/cameron-venti-R64qgQ6rr_o.jpg',
+        'https://denpan.ru/assets/kBooking/images/brandon-hoogenboom-SNxQGWxZQi0.jpg',
+        'https://denpan.ru/assets/kBooking/images/claire-rendall-b6kAwr1i0Iw.jpg'
       ]
     },
     'location': {
@@ -804,8 +804,8 @@ const bookingData = [
       ],
       'description': 'Великолепная лавочка прямо в центре парка. Подходит для всех кто любит спать на свежем воздухе.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/anelale-najera-vdeZfLQ6Hts.jpg',
-        'https://denpan.ru/assets/kBooking/angela-bailey-8KzgXVPTZn0.jpg'
+        'https://denpan.ru/assets/kBooking/images/anelale-najera-vdeZfLQ6Hts.jpg',
+        'https://denpan.ru/assets/kBooking/images/angela-bailey-8KzgXVPTZn0.jpg'
       ]
     },
     'location': {
@@ -861,7 +861,7 @@ const bookingData = [
       ],
       'description': 'Хейтеров просьба не беспокоить.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/ashim-d-silva-zL_urJ_3bDM.jpg'
+        'https://denpan.ru/assets/kBooking/images/ashim-d-silva-zL_urJ_3bDM.jpg'
       ]
     },
     'location': {
@@ -910,7 +910,7 @@ const bookingData = [
       'checkout': '9:00',
       'description': 'Один из лучших хостелов для душевного общения. Ужинаем вместе и играем в «Мафию» по вечерам, вкусно готовим. Ежедневная уборка, бесплатный Wi-Fi, чистое постельное белье.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/greg-rosenke-HHgnQFBVs6o.jpg'
+        'https://denpan.ru/assets/kBooking/images/greg-rosenke-HHgnQFBVs6o.jpg'
       ]
     },
     'location': {
@@ -937,9 +937,9 @@ const bookingData = [
         'conditioner'
       ],
       'photos': [
-        'https://denpan.ru/assets/kBooking/cameron-venti-R64qgQ6rr_o.jpg',
-        'https://denpan.ru/assets/kBooking/brandon-hoogenboom-SNxQGWxZQi0.jpg',
-        'https://denpan.ru/assets/kBooking/claire-rendall-b6kAwr1i0Iw.jpg'
+        'https://denpan.ru/assets/kBooking/images/cameron-venti-R64qgQ6rr_o.jpg',
+        'https://denpan.ru/assets/kBooking/images/brandon-hoogenboom-SNxQGWxZQi0.jpg',
+        'https://denpan.ru/assets/kBooking/images/claire-rendall-b6kAwr1i0Iw.jpg'
       ]
     },
     'location': {
@@ -970,8 +970,8 @@ const bookingData = [
       ],
       'description': 'Великолепная квартира-студия в центре Токио. Подходит как туристам, там и бизнесменам. Квартира полностью укомплектована и имеет свежий ремонт.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/gabriel-beaudry-WuQME0I_oZA.jpg',
-        'https://denpan.ru/assets/kBooking/gracia-dharma-qTlbO6mkQH0.jpg'
+        'https://denpan.ru/assets/kBooking/images/gabriel-beaudry-WuQME0I_oZA.jpg',
+        'https://denpan.ru/assets/kBooking/images/gracia-dharma-qTlbO6mkQH0.jpg'
       ]
     },
     'location': {
@@ -1025,7 +1025,7 @@ const bookingData = [
       ],
       'description': 'Замечательный дворец в старинном центре города. Только для тех кто может себе позволить дворец. Лакеев и прочих жокеев просим не беспокоить.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/earvin-huang-a8danBUbgw0.jpg'
+        'https://denpan.ru/assets/kBooking/images/earvin-huang-a8danBUbgw0.jpg'
       ]
     },
     'location': {
@@ -1101,8 +1101,8 @@ const bookingData = [
       ],
       'description': 'Великолепная лавочка прямо в центре парка. Подходит для всех кто любит спать на свежем воздухе.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/gabriel-beaudry-WuQME0I_oZA.jpg',
-        'https://denpan.ru/assets/kBooking/gracia-dharma-qTlbO6mkQH0.jpg'
+        'https://denpan.ru/assets/kBooking/images/gabriel-beaudry-WuQME0I_oZA.jpg',
+        'https://denpan.ru/assets/kBooking/images/gracia-dharma-qTlbO6mkQH0.jpg'
       ]
     },
     'location': {
@@ -1125,8 +1125,8 @@ const bookingData = [
       'checkout': '19:00',
       'description': 'Тут красиво, светло и уютно. Есть где разместиться компании из 5 человек. Кофе и печеньки бесплатно.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/felix-fuchs-PXAcac16eJQ.jpg',
-        'https://denpan.ru/assets/kBooking/duonguyen-8LrGtIxxa4w.jpg'
+        'https://denpan.ru/assets/kBooking/images/felix-fuchs-PXAcac16eJQ.jpg',
+        'https://denpan.ru/assets/kBooking/images/duonguyen-8LrGtIxxa4w.jpg'
       ]
     },
     'location': {
@@ -1152,8 +1152,8 @@ const bookingData = [
       ],
       'description': 'Великолепная квартира-студия в центре Токио. Подходит как туристам, там и бизнесменам. Квартира полностью укомплектована и имеет свежий ремонт.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/felix-fuchs-PXAcac16eJQ.jpg',
-        'https://denpan.ru/assets/kBooking/duonguyen-8LrGtIxxa4w.jpg'
+        'https://denpan.ru/assets/kBooking/images/felix-fuchs-PXAcac16eJQ.jpg',
+        'https://denpan.ru/assets/kBooking/images/duonguyen-8LrGtIxxa4w.jpg'
       ]
     },
     'location': {
@@ -1176,9 +1176,9 @@ const bookingData = [
       'checkout': '9:00',
       'description': 'Великолепная квартира-студия в центре Токио. Подходит как туристам, там и бизнесменам. Квартира полностью укомплектована и имеет свежий ремонт.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/andrea-davis-7Wg_9Dq17_U.jpg',
-        'https://denpan.ru/assets/kBooking/andrea-davis-8xT51zPdsjY.jpg',
-        'https://denpan.ru/assets/kBooking/andrea-davis-nbI8gqbBaHo.jpg'
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-7Wg_9Dq17_U.jpg',
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-8xT51zPdsjY.jpg',
+        'https://denpan.ru/assets/kBooking/images/andrea-davis-nbI8gqbBaHo.jpg'
       ]
     },
     'location': {
@@ -1229,8 +1229,8 @@ const bookingData = [
       ],
       'description': 'Тут красиво, светло и уютно. Есть где разместиться компании из 5 человек. Кофе и печеньки бесплатно.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/gabriel-beaudry-WuQME0I_oZA.jpg',
-        'https://denpan.ru/assets/kBooking/gracia-dharma-qTlbO6mkQH0.jpg'
+        'https://denpan.ru/assets/kBooking/images/gabriel-beaudry-WuQME0I_oZA.jpg',
+        'https://denpan.ru/assets/kBooking/images/gracia-dharma-qTlbO6mkQH0.jpg'
       ]
     },
     'location': {
@@ -1261,8 +1261,8 @@ const bookingData = [
       ],
       'description': 'Замечательный дворец в старинном центре города. Только для тех кто может себе позволить дворец. Лакеев и прочих жокеев просим не беспокоить.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/anelale-najera-vdeZfLQ6Hts.jpg',
-        'https://denpan.ru/assets/kBooking/angela-bailey-8KzgXVPTZn0.jpg'
+        'https://denpan.ru/assets/kBooking/images/anelale-najera-vdeZfLQ6Hts.jpg',
+        'https://denpan.ru/assets/kBooking/images/angela-bailey-8KzgXVPTZn0.jpg'
       ]
     },
     'location': {
@@ -1313,8 +1313,8 @@ const bookingData = [
       'checkout': '5:00',
       'description': 'Хейтеров просьба не беспокоить.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/felix-fuchs-PXAcac16eJQ.jpg',
-        'https://denpan.ru/assets/kBooking/duonguyen-8LrGtIxxa4w.jpg'
+        'https://denpan.ru/assets/kBooking/images/felix-fuchs-PXAcac16eJQ.jpg',
+        'https://denpan.ru/assets/kBooking/images/duonguyen-8LrGtIxxa4w.jpg'
       ]
     },
     'location': {
@@ -1345,9 +1345,9 @@ const bookingData = [
       ],
       'description': 'Великолепная лавочка прямо в центре парка. Подходит для всех кто любит спать на свежем воздухе.',
       'photos': [
-        'https://denpan.ru/assets/kBooking/cameron-venti-R64qgQ6rr_o.jpg',
-        'https://denpan.ru/assets/kBooking/brandon-hoogenboom-SNxQGWxZQi0.jpg',
-        'https://denpan.ru/assets/kBooking/claire-rendall-b6kAwr1i0Iw.jpg'
+        'https://denpan.ru/assets/kBooking/images/cameron-venti-R64qgQ6rr_o.jpg',
+        'https://denpan.ru/assets/kBooking/images/brandon-hoogenboom-SNxQGWxZQi0.jpg',
+        'https://denpan.ru/assets/kBooking/images/claire-rendall-b6kAwr1i0Iw.jpg'
       ]
     },
     'location': {

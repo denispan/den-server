@@ -7,7 +7,6 @@ class KBookingController {
     } catch (err) {
       res.status(400).json({error: err});
     }
-
   }
 
   async assertData(req, res) {
