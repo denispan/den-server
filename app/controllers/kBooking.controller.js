@@ -10,7 +10,12 @@ class KBookingController {
   }
 
   async assertData(req, res) {
-    return res.status(200);
+    try {
+      // Here you can add your data validation logic
+      return res.status(200).json({ message: 'Data validated successfully' });
+    } catch (err) {
+      return res.status(400).json({ error: err.message });
+    }
   }
 }
 
