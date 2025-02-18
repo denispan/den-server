@@ -5,12 +5,12 @@ class KBookingController {
     try {
       return res.json(bookingData);
     } catch (err) {
-      res.status(400).json({error: err});
+      return res.status(400).json({error: err});
     }
   }
 
   async assertData(req, res) {
-    res.status(200);
+    return res.status(200);
   }
 }
 
