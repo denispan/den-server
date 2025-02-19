@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const router = require('./routes');
+const db = require('./db');
+const logger = require('./utils/logger');
 
 const PORT = process.env.PORT || 8080;
 const app = express();
@@ -41,6 +43,20 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/api', router);
 
-app.listen(PORT, () => {
-  console.log(`Server started on port ${PORT}`);
+const initServer = async () => {
+  if (!await db.init()) {
+    throw Error('Error! Server failed to start, because DB cant INIT');
+  }
+
+  app.listen(PORT, () => {
+    logger.info(`OK! Application listening on port ${PORT}`);
+  });
+
+  logger.debug(`Node env: ${process.env.NODE_ENV}`);
+};
+
+initServer().then(() => {
+  logger.info('OK! Server load complete');
+}).catch((e) => {
+  logger.error(e);
 });

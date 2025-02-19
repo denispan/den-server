@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node app/index.js",
     "dev": "nodemon app/index.js",
-    "bump": "npm version patch -m \"Release v%s\" && git push && git push --tags"
+    "db:migrate": "sequelize db:migrate --config config/database.js --migrations-path app/db/migrations",
+    "db:seed": "sequelize db:seed:all --config config/database.js --seeders-path app/db/seeders",
+    "db:reset": "sequelize db:migrate:undo:all --config config/database.js --migrations-path app/db/migrations && sequelize db:migrate --config config/database.js --migrations-path app/db/migrations && sequelize db:seed:all --config config/database.js --seeders-path app/db/seeders"
   },
   "keywords": [],
   "author": "Denis P",
@@ -13,9 +15,15 @@
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "sequelize": "^6.37.5",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "sequelize-cli": "^6.6.2"
   }
 }
