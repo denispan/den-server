@@ -3,7 +3,7 @@ const kBookingController = require('../controllers/kBooking.controller');
 
 const router = new Router();
 
-router.get(['/data/', '/data'], kBookingController.getMockData);
-router.post(['/', '/'], kBookingController.assertData);
+router.get('/data', kBookingController.getMockData);
+router.post('/', kBookingController.assertData);
 
 module.exports = router;
